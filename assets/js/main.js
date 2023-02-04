@@ -5,6 +5,10 @@ let right = document.querySelector(".fa-angle-right");
 right.addEventListener("click", function (){
     rightFun()
 })
+
+left.addEventListener("click", function(){
+    leftFun();
+})
 document.body.addEventListener("keyup",function(e){
     if(e.which == 39){
         rightFun()
@@ -35,4 +39,4 @@ function leftFun(){
       active.classList.remove("active"); 
     }
 }
-setInterval(()=>rightFun(), 3000)
+// setInterval(()=>rightFun(), 3000);

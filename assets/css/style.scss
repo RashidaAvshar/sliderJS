@@ -32,19 +32,19 @@
             }
         }
     }
-    .nav{
+    span{
         position: absolute;
         top: 50%;
         color: white;
         font-size: 30px;
         cursor: pointer;
         .fa-angle-left{
+            position: absolute;
             left: 20px;
-            margin-left: 10px;
         }
         .fa-angle-right{
-            right: 20px;
-            margin-left: 455px;
+            position: absolute;
+            left: 460px;            
         }
     }    
 }

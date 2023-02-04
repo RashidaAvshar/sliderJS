@@ -32,20 +32,20 @@
   height: 100%;
   width: 100%;
 }
-.slider .nav {
+.slider span {
   position: absolute;
   top: 50%;
   color: white;
   font-size: 30px;
   cursor: pointer;
 }
-.slider .nav .fa-angle-left {
+.slider span .fa-angle-left {
+  position: absolute;
   left: 20px;
-  margin-left: 10px;
 }
-.slider .nav .fa-angle-right {
-  right: 20px;
-  margin-left: 455px;
+.slider span .fa-angle-right {
+  position: absolute;
+  left: 460px;
 }
 
 .active {
