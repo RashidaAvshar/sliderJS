@@ -1,1 +1,53 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 80%;
+  margin: 10px 160px;
+}
+
+.slider {
+  position: relative;
+  width: 500px;
+  height: 700px;
+  left: 300px;
+}
+.slider .img {
+  height: 100%;
+  width: 100%;
+}
+.slider .img .item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: all 1s;
+}
+.slider .img .item img {
+  height: 100%;
+  width: 100%;
+}
+.slider .nav {
+  position: absolute;
+  top: 50%;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+.slider .nav .fa-angle-left {
+  left: 20px;
+  margin-left: 10px;
+}
+.slider .nav .fa-angle-right {
+  right: 20px;
+  margin-left: 455px;
+}
+
+.active {
+  opacity: 1 !important;
+}/*# sourceMappingURL=style.css.map */
